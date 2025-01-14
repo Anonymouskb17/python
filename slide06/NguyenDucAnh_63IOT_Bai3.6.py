@@ -1,0 +1,5 @@
+num = list(map(int, input("Nhập các số cách nhau bởi dấu cách: ").split()))
+value = set(num)
+print("Số phần tử trong tập:", len(value))
+print("Giá trị lớn nhất trong tập:", max(value))
+print("Giá trị nhỏ nhất trong tập:", min(value))
